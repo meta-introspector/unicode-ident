@@ -11,4 +11,4 @@ path = "test.rs"
 [dependencies]
 unicode-ident = { path = "../.." }
 
-[workspace]
+#[workspace]

@@ -9,7 +9,7 @@ edition = "2018"
 keywords = ["unicode", "xid"]
 license = "(MIT OR Apache-2.0) AND Unicode-3.0"
 repository = "https://github.com/dtolnay/unicode-ident"
-rust-version = "1.31"
+# rust-version = "1.31"
 
 [dev-dependencies]
 criterion = { version = "0.7", default-features = false }
@@ -23,7 +23,7 @@ unicode-xid = "0.2.6"
 name = "xid"
 harness = false
 
-[workspace]
+#[workspace]
 members = ["diagram", "generate"]
 
 [package.metadata.docs.rs]
