@@ -36,5 +36,5 @@ rustdoc-args = [
     "--extern-html-root-url=std=https://doc.rust-lang.org",
 ]
 
-[patch.crates-io]
-unicode-xid = { git = "https://github.com/dtolnay-contrib/unicode-xid", branch = "unicode17.0.0" }
+# [patch.crates-io]
+# unicode-xid = { git = "https://github.com/dtolnay-contrib/unicode-xid", branch = "unicode17.0.0" }
